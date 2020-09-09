@@ -1,0 +1,4 @@
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.csprojAssemblyReference.cache
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.AssemblyInfoInputs.cache
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.AssemblyInfo.cs
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.csproj.CoreCompileInputs.cache
