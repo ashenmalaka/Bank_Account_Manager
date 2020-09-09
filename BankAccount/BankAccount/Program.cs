@@ -6,7 +6,7 @@ namespace BankAccount
     {
         public static void Main(string[] args)
         {
-            Account account = new Account("Ashen", "Malaka");
+            Account account = new Account();
             Savings savings = new Savings(10000);
             Checking checking = new Checking(2000);
 

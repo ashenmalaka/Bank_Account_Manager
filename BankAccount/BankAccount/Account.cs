@@ -7,7 +7,7 @@ namespace BankAccount
         private string firstName;
         private string lastName;
 
-        protected string accountType;
+        private string accountType;
 
         protected double balance;
         private double depositAmount;
@@ -15,39 +15,12 @@ namespace BankAccount
 
         public double DepositAmount { get => depositAmount; set => depositAmount = value; }
         public double WithdrawAmount { get => withdrawAmount; set => withdrawAmount = value; }
+        protected string AccountType { get => accountType; set => accountType = value; }
 
-        public string FirstName()
+        public Account()
         {
-            get{
-                return this.firstName;
-            }
-        }
-
-        public string LastName()
-        {
-            get{
-                return this.lastName;
-            }
-        }
-
-        public string AccountType()
-        {
-            get{
-                return this.accountType;
-            }
-        }
-
-        public double Balance()
-        {
-            get{
-                return this.balance;
-            }
-        }
-
-        public Account(string firstName, string lastName)
-        {
-            this.firstName = firstName;
-            this.lastName = lastName;
+            firstName = "Ashen";
+            lastName = "Malaka";
         }
 
         public string DisplayAccountHolderFullName()

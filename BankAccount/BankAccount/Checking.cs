@@ -5,7 +5,7 @@ namespace BankAccount
         public Checking(double balance)
         {
             this.balance = balance;
-            accountType = "Checking Account";
+            AccountType = "Checking Account";
         }
     }
 }

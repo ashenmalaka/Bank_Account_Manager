@@ -2,3 +2,12 @@ E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3
 E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.AssemblyInfoInputs.cache
 E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.AssemblyInfo.cs
 E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.csproj.CoreCompileInputs.cache
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.exe
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.deps.json
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.runtimeconfig.json
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.runtimeconfig.dev.json
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.dll
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\bin\Debug\netcoreapp3.1\BankAccount.pdb
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.dll
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.pdb
+E:\My Projets\Bank_Account_Manager\BankAccount\BankAccount\obj\Debug\netcoreapp3.1\BankAccount.genruntimeconfig.cache
