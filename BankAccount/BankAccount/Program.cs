@@ -37,6 +37,30 @@ namespace BankAccount
                 string savingsWithrdawAmount = ($"Transaction: -${savings.WithdrawAmount} at {DateTime.Now}" +
                     $"Current Balance: ${savings.Balance}");
 
+                if(checking.DepositAmount > 0)
+                {
+                    checkingAccountSummary.Add(checkingDepositAmount);
+                    checking.DepositAmount = 0;
+                }
+
+                if(savings.DepositAmount > 0)
+                {
+                    savingsAccountSummary.Add(savingsDepositAmount);
+                    savings.DepositAmount = 0;
+                }
+
+                if(checking.WithdrawAmount > 0)
+                {
+                    checkingAccountSummary.Add(checkingWithrdawAmount);
+                    checking.WithdrawAmount = 0;
+                }
+
+                if (savings.WithdrawAmount > 0)
+                {
+                    savingsAccountSummary.Add(savingsWithrdawAmount);
+                    savings.WithdrawAmount = 0;
+                }
+
                 account.DisplayFirstMessage();
                 Console.ReadLine();
 

@@ -1,2 +1,17 @@
 Account Holder: Ashen Malaka
 Checking Account
+Account Holder: Ashen Malaka
+Checking Account
+Transaction: +$5000 at 9/11/2020 12:22:54 PMCurrent Balance: $7000
+Transaction: -$1000 at 9/11/2020 12:23:12 PMCurrent Balance: $6000
+Account Holder: Ashen Malaka
+Checking Account
+Transaction: +$10000 at 9/11/2020 12:29:00 PMCurrent Balance: $12000
+Account Holder: Ashen Malaka
+Checking Account
+Transaction: +$8000 at 9/11/2020 12:30:06 PMCurrent Balance: $10000
+Transaction: -$2000 at 9/11/2020 12:30:18 PMCurrent Balance: $8000
+Account Holder: Ashen Malaka
+Checking Account
+Transaction: +$5000 at 9/11/2020 12:32:29 PMCurrent Balance: $7000
+Transaction: -$1000 at 9/11/2020 12:32:39 PMCurrent Balance: $6000
