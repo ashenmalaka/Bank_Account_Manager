@@ -7,7 +7,7 @@ namespace BankAccount
         private string firstName;
         private string lastName;
 
-        private string accountType;
+        protected string accountType;
 
         protected double balance;
         private double depositAmount;
@@ -15,7 +15,8 @@ namespace BankAccount
 
         public double DepositAmount { get => depositAmount; set => depositAmount = value; }
         public double WithdrawAmount { get => withdrawAmount; set => withdrawAmount = value; }
-        protected string AccountType { get => accountType; set => accountType = value; }
+        public string AccountType { get => accountType; set => accountType = value; }
+        public double Balance { get => balance; }
 
         public Account()
         {
