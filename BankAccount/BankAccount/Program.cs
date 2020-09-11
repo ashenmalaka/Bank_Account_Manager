@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace BankAccount
 {
@@ -14,10 +15,28 @@ namespace BankAccount
             string checkingAccountType = checking.AccountType;
             string savingsAccountType = savings.AccountType;
 
+            IList<string> checkingAccountSummary = new List<string>();
+            IList<string> savingsAccountSummary = new List<string>();
+
+            checkingAccountSummary.Add(clientInfo);
+            checkingAccountSummary.Add(checkingAccountType);
+
+            savingsAccountSummary.Add(clientInfo);
+            savingsAccountSummary.Add(savingsAccountType);
+
             string userChoice = "";
 
             do
             {
+                string checkingDepositAmount = ($"Transaction: +${checking.DepositAmount} at {DateTime.Now}" +
+                    $"Current Balance: ${checking.Balance}");
+                string savingsDepositAmount = ($"Transaction: +${savings.DepositAmount} at {DateTime.Now}" +
+                    $"Current Balance: ${savings.Balance}");
+                string checkingWithrdawAmount = ($"Transaction: -${checking.WithdrawAmount} at {DateTime.Now}" +
+                    $"Current Balance: ${checking.Balance}");
+                string savingsWithrdawAmount = ($"Transaction: -${savings.WithdrawAmount} at {DateTime.Now}" +
+                    $"Current Balance: ${savings.Balance}");
+
                 account.DisplayFirstMessage();
                 Console.ReadLine();
 
@@ -69,6 +88,9 @@ namespace BankAccount
                         checking.WithdrawBalance(checking.WithdrawAmount);
                         break;
                     case "X":
+                        Console.Clear();
+                        account.WriteSummary(checkingAccountSummary, "Checking");
+                        account.WriteSummary(savingsAccountSummary, "Savings");
                         Console.WriteLine("Thanks and come again!");
                         Environment.Exit(0);
                         break;

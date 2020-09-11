@@ -1,4 +1,7 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 namespace BankAccount
 {
@@ -69,6 +72,23 @@ namespace BankAccount
             balance = balance + depositAmount - withdrawAmount;
         }
 
+        public void WriteSummary(IList<string> transactions, string fileName)
+        {
+            try
+            {
+                using (StreamWriter summary = new StreamWriter(fileName + ".txt", true))
+                {
+                    foreach (string transaction in transactions)
+                    {
+                        summary.WriteLine(transaction);
+                    }
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.Write(exception.Message);
+            }
+        }
 
     }
 }
